@@ -49,7 +49,7 @@ const DATA = [
 export default class App extends React.Component {
   renderCard(item) {
     return (
-      <Card key={item.id} title={item.text} image={{ uri: item.uri }}>
+      <Card title={item.text} image={{ uri: item.uri }}>
         <Text style={{ marginBottom: 10 }}>testing</Text>
         <Button
           icon={{ name: "code" }}
